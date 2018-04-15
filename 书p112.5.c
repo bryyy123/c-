@@ -7,12 +7,13 @@ int main()
 	scanf("%d",&n);
 	if(n>=1000)
 	{
-		printf("输入的数不符合要求，请重新输入:\n");
+		printf("输入的数不符合要求，请重新输入\n");
 				
 	}
-	    scanf("%d",&n);
+	 else
+	 {
 		x=sqrt(n);
 	    printf("平方根的整数部分是：%d\n",x);	
-		
+	}	
 	return 0;
 } 
